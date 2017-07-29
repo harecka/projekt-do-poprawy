@@ -8,16 +8,17 @@ nav#menu {
   text-align: center;
   background: #222;
 }
-
-nav#menu> ul>li.menu-item>a
-{
-  display: inline-block;
-  padding: 25px;
-  list-style: none;
-}
-
 nav#menu >ul {
   margin: 0;
+    padding: 15px;
+    
+}
+nav#menu> ul>li.menu-item
+{
+  display: inline-block;
+    font-size: 20px;
+  padding: 25px;
+  list-style: none;
 }
 
 nav#menu .menu-item a{
@@ -66,27 +67,28 @@ section#about p.about-content{
   text-align: center;
 }
 
-#contact {
+footer#contact {
   padding: 30px 50px;
   background: #222;
 }
 
-#contact #contact-header{
+footer#contact h2#contact-header{
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
   color: #fff;
 }
 
-#contact #contact-content {
+footer#contact address#contact-content {
   text-align: center;
   color: #fff;
+    font-style: normal;
 }
 
-#contact #contact-content a {
+footer#contact address#contact-content a {
   color: #fff;
 }
 
-#contact #contact-content a:hover {
+footer#contact address#contact-content a:hover {
   color: #999;
 }
