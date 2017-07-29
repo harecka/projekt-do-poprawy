@@ -1,43 +1,44 @@
+/*general styles*/
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
 
-#menu {
+nav#menu {
   text-align: center;
   background: #222;
-  
 }
 
-#menu .menu-item {
+nav#menu> ul>li.menu-item>a
+{
   display: inline-block;
   padding: 25px;
   list-style: none;
 }
 
-#menu ul {
+nav#menu >ul {
   margin: 0;
 }
 
-#menu .menu-item a{
+nav#menu .menu-item a{
   text-decoration: none;
   color: #fff;
 }
 
-#menu .menu-item a:hover{
+nav#menu>ul>li.menu-item a:hover{
   color: #999;
 }
-
-#header {
+/*Header styles*/
+header#header {
   position: relative;
   text-align: center;
 }
 
-#header img{
+header#header img{
   width: 100%;
 }
 
-#header #main-header-text {
+header#header h1#main-header-text {
   position: absolute;
   top: 50%;
   font-size: 50px;
@@ -50,18 +51,18 @@ body {
   
 }
 
-#about {
+section#about {
   margin: 30px 0;
   padding: 0 50px;
 }
 
-#about #about-header{
+section#about h2#about-header{
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-#about .about-content{
+section#about p.about-content{
   text-align: center;
 }
 
